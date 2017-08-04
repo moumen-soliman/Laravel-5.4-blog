@@ -9,7 +9,7 @@
 
               @foreach ($archives as $stats)
                 <li>
-                    <a href="laracast/public/?month={{ $stats['month'] }}&year={{ $stats['year'] }}">{{ $stats['month'] .' '. $stats['year'] }}</a>
+                    <a href="/public/?month={{ $stats['month'] }}&year={{ $stats['year'] }}">{{ $stats['month'] .' '. $stats['year'] }}</a>
                 </li>
               @endforeach
 

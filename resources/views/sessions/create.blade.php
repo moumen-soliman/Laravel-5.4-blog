@@ -24,7 +24,7 @@
 
 			</div>
 			
-		@include ('layouts.error')
+		@include ('layouts.errors')
 		</form>
 
 	</div>

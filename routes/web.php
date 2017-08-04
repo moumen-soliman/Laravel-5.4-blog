@@ -54,7 +54,7 @@ Route::get('/register', 'RegistrationController@create'); //to get from database
 Route::post('/register', 'RegistrationController@store'); //to post in database
 
 
-Route::get('/login', 'SessionsController@create'); //to get from database
+Route::get('/login', 'SessionsController@create')->name('login'); //to get from database
 
 Route::post('/login','SessionsController@store');
 
